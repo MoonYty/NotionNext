@@ -196,22 +196,22 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: 'Promise - 山岡晃',
-      artist: 'Falcom Sound Team jdk',
+      name: 'Promise',
+      artist: '山岡晃',
       url: 'https://music.163.com/song/media/outer/url?id=18861490.mp3',
-      cover: ''
+      cover: 'https://i0.hdslb.com/bfs/archive/7661b0dec23f2edcd9c33ef60c66238d60a9ab7e.jpg'
     },
     {
       name: '纯音乐',
-      artist: 'Falcom Sound Team jdk',
+      artist: '',
       url: 'https://music.163.com/song/media/outer/url?id=464863017.mp3',
-      cover: ''
+      cover: 'https://img2.baidu.com/it/u=2032239099,1712484163&fm=253.jpg'
     },
     {
       name: '纯音乐',
-      artist: 'Falcom Sound Team jdk',
+      artist: '',
       url: 'https://music.163.com/song/media/outer/url?id=468176711.mp3',
-      cover: ''
+      cover: 'https://img1.baidu.com/it/u=3455471621,618257613&fm=253.jpg'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
