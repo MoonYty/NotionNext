@@ -198,20 +198,20 @@ const BLOG = {
     {
       name: 'Promise - 山岡晃',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/outchain/player?type=2&id=18861490',
-      cover: null
+      url: 'https://music.163.com/song/media/outer/url?id=18861490.mp3',
+      cover: ''
     },
     {
       name: '纯音乐',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/outchain/player?type=2&id=464863017',
-      cover: null
+      url: 'https://music.163.com/song/media/outer/url?id=464863017.mp3',
+      cover: ''
     },
     {
       name: '纯音乐',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/outchain/player?type=2&id=468176711',
-      cover: null
+      url: 'https://music.163.com/song/media/outer/url?id=468176711.mp3',
+      cover: ''
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
